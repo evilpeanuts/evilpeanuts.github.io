@@ -109,7 +109,7 @@ body {
 	font-weight:400;
 	background: #fff;
 	padding: 10px;
-	text-transform:uppercase;	
+	text-transform:uppercase;
     color:#333;
     -webkit-transition: color .2s linear,background .2s linear;
 	-moz-transition: color .2s linear,background .2s linear;
@@ -739,8 +739,8 @@ display:none;
     width:9999px;
     margin:0px;
     padding:0px;
-    list-style-type:none;   
-    text-align:center;  
+    list-style-type:none;
+    text-align:center;
 }
 
 .nbs-flexisel-inner {
@@ -773,7 +773,7 @@ display:none;
 .nbs-flexisel-nav-left,
 .nbs-flexisel-nav-right {
     width: 22px;
-    height: 22px; 
+    height: 22px;
     position: absolute;
     cursor: pointer;
     z-index: 100;
@@ -794,7 +794,7 @@ display:none;
 .contact {
 	padding: 7% 0;
 	background: url(../images/footer-img.jpg) no-repeat;
-	background-size: 100% 100%; 
+	background-size: 100% 100%;
 }
 .contact h3{
 	color: #ffffff;
@@ -865,7 +865,7 @@ display:none;
 }
 .form textarea{
 	resize:none;
-	height:203px;		
+	height:203px;
 }
 .form input[type="submit"]{
 	background: #FED136;
@@ -905,7 +905,7 @@ display:none;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
-} 
+}
 .bottom-footer-left p a:hover{
 	color:#777;
 }
@@ -945,17 +945,17 @@ display:none;
 @media only screen and (max-width: 1366px) {
 	.wrap{
 		width:85%;
-	}	
+	}
 }
 @media only screen and (max-width: 1280px) {
 	.wrap{
 		width:95%;
-	}	
+	}
 }
 @media only screen and (max-width: 1024px) {
 	.wrap{
 		width:95%;
-	}	
+	}
 	.services h3,.portfolio h3,.about h3,.tm-head h3,.contact h3  {
 		font-size: 2em;
 	}
@@ -987,7 +987,7 @@ display:none;
 @media only screen and (max-width: 768px) {
 	.wrap{
 		width:95%;
-	}	
+	}
     .view {
 		width: 91%;
 	}
@@ -1023,6 +1023,7 @@ display:none;
 	}
 	.form input[type="submit"] {
 		padding: 10px 13px;
+		margin: 5px auto;
 	}
 	.bottom-footer-left {
 		float: none;
@@ -1036,7 +1037,7 @@ display:none;
 	}
 }
 @media only screen and (max-width: 640px) {
-	
+
 	.wrap{
 		width:95%;
 	}
@@ -1109,7 +1110,7 @@ display:none;
 }
 
 @media only screen and (max-width: 480px) {
-	
+
 	.wrap{
 		width:95%;
 	}
@@ -1159,7 +1160,7 @@ display:none;
 	}
 	.tm-head-grid {
 		width: 47.5%;
-	}	
+	}
 	.tm-head-grids {
 		width: 100%;
 		margin: 2.3em auto 2.3em auto;
@@ -1168,7 +1169,7 @@ display:none;
 		margin: 1em 0 1em;
 	}
 	.form textarea {
-		width: 41%;
+		width: 38%;
 		height: 116px;
 	}
 	.bottom-social-icons {
@@ -1176,7 +1177,7 @@ display:none;
 	}
 }
 @media only screen and (max-width: 320px) {
-	
+
 	.wrap{
 		width:95%;
 	}
