@@ -38,11 +38,6 @@
 .da-slide h2,
 .da-slide p,
 .da-slide .da-link,
-.da-slide .da-img{
-	position: absolute;
-	opacity: 0;
-	left: 110%;
-}
 .da-slider-fb .da-slide h2,
 .da-slider-fb .da-slide p,
 .da-slider-fb .da-slide .da-link{
@@ -57,7 +52,7 @@
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	width: 77%;
+	width: 100%;
 	top: 127px;
 	font-size: 5em;
 	font-weight: 600;

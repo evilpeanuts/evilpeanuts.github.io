@@ -12,12 +12,24 @@
 		<script type="text/javascript" src="js/jquery.cslider.js"></script>
 			<script type="text/javascript">
 				$(function() {
-
-					$('#da-slider').cslider({
-						autoplay	: true,
-						bgincrement	: 450
-					});
-
+          var pstr = 'Welcome To My HomePage!';
+					var h2str = 'IT\'S NICE TO MEET YOU';
+					var p = $('.da-slide .p');
+					var h2 = $('.da-slide h2');
+					var i = 0;
+					var time=setInterval(typing,200);
+function typing(){
+// console.log(str.slice(0, i++)
+if (i <= pstr.length) {
+	p.html(pstr.slice(0, i++) + '|');
+	h2.html(h2str.slice(0, i++) + '|');
+ }
+ else{
+	p.html(pstr);//结束打字,移除 _ 光标
+	h2.html(h2str);
+	clearInterval(time);
+ }
+}
 				});
 			</script>
 		<!---//strat-slider---->
@@ -80,11 +92,11 @@
 				<!---start-da-slider----->
 				<div id="da-slider" class="da-slider">
 				<div class="da-slide">
-					<p>Welcome To My HomePage!</p>
-					<h2>IT'S NICE TO MEET YOU</h2>
+					<p class="p"></p>
+					<h2></h2>
 					<p class="a"><a href="#">TELL ME MORE</a></p>
 				</div>
-				<div class="da-slide">
+				<!-- <div class="da-slide">
 					<p>Welcome To Our Studio!</p>
 					<h2>IT'S NICE TO MEET YOU</h2>
 					<p class="a"><a href="#">TELL ME MORE</a></p>
@@ -102,7 +114,7 @@
 				<nav class="da-arrows">
 					<span class="da-arrows-prev"></span>
 					<span class="da-arrows-next"></span>
-				</nav>
+				</nav> -->
 			</div>
  			<!---//End-da-slider----->
  		</div>
@@ -120,13 +132,13 @@
 				<div class="col_1_of_3 span_1_of_3">
 					<img src="images/service2.png" alt=""/>
 					<h4><a href="#">Hobbies</a></h4>
-					<p>跑步、打球、听音乐</p>
+					<p>跑步、听音乐、打网游</p>
 					<p>电影控</p>
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 					<img src="images/service3.png" alt=""/>
 					<h4><a href="#">work experience</a></h4>
-					<p>2015年至2016年在太原火英公司担任前端工程师</p>
+					<p>2016年至2017年5月在上海迪彩公司担任前端工程师</p>
 				</div>
 				 <div class="clear"></div>
    		   </div>
@@ -153,10 +165,10 @@
 	                    <div class="mask">
 	                        <h2></h2>
 	                        <p></p>
-	                        <a href="./icould" class="info">Icould</a>
+	                        <a href="./icould" class="info">Ng-Icould</a>
 	                    </div>
                 	</div>
-					<h4><a href="">Icould</a></h4>
+					<h4><a href="">Ng-Icould</a></h4>
 					<p></p>
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
@@ -201,65 +213,15 @@
 	                    <div class="mask">
 	                        <h2></h2>
 	                        <p></p>
-	                        <a href="./yintai" class="info">银泰</a>
+	                        <a href="./canvas-Gobang" class="info">canvas-Gobang</a>
 	                    </div>
                 	</div>
-					<h4><a href="">银泰</a></h4>
+					<h4><a href="">canvas-Gobang</a></h4>
 					<p></p>
 				</div>
 			<div class="clear"></div>
 			</div>
    		 </div>
-   		 <!---start-about---->
-
-
-
-		  <!-- <div class="about" id="about">
-		  	<div class="wrap">
-		  		<h3>Skills display</h3>
-		  		<p class="a"></p>
-				<!---start-about-time-line---->
-				<!-- <div class="about-time-line">
-					<li>
-							<div class="cbp_tmicon img1"> </div>
-							<div class="cbp_tmlabel">
-								<h2>JULY 2010</h2>
-								<h2>Our Humble Beginnings</h2>
-								<p>Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon1 img2"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1">
-								<h2>JANUARY 2011</h2>
-								<h2>Facing Startup Battles </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-							</div>
-					</li><br />
-					<li>
-							<div class="cbp_tmicon2 img3"> </div>
-							<div class="cbp_tmlabel">
-								<h2>DECEMBER 2012</h2>
-								<h2>Enter The Dark Days </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon3 img4"> </div>
-							<div class="cbp_tmlabel cbp_tmlabel1">
-								<h2>FEBRUARY 2014</h2>
-								<h2>Our Triumph </h2>
-								<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean.</p>
-							</div>
-					</li>
-					<li>
-							<div class="cbp_tmicon4 img5"> </div>
-					</li>
-					<div class="clear"> </div>
-   		   </div>
-   		 </div>
-   		</div>
- -->
 
 
 
@@ -357,10 +319,10 @@
 				<div class="form">
 				     <div class="form-text">
 					    <input type="text" class="textbox" value="My name" onFocus="this.value = '赵冬生';" onBlur="if (this.value == '赵冬生') {this.value = '我的名字';}">
-						<input type="text" class="textbox" value="E-mail" onFocus="this.value = '2247631859@qq.com';" onBlur="if (this.value == '2247631859@qq.com') {this.value = 'E-mail';}">
+						<input type="text" class="textbox" value="E-mail" onFocus="this.value = '2247631859@qq.com'" onBlur="this.value = 'E-mail'">
 						<input name="Website" type="text" class="Subject" value="Phone" onFocus="this.value = '18435117089';" onBlur="if (this.value == '18435117089') {this.value = 'Phone';}">
 					</div>
-						 <textarea placeholder="Your Message*"></textarea>
+						 <textarea placeholder="本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。" value="1">本人性格热情开朗，待人友好，为人诚实谦虚。工作勤奋，认真负责，能吃苦耐劳，尽职尽责，有耐心。具有亲和力，平易近人，善于与人沟通。</textarea>
 						 <div class="clear"> </div>
 						 <input type="submit" value="SEND MESSAGE">
 				 </div>
@@ -369,9 +331,9 @@
          <!----start-bottom-footer---->
 				<div class="bottom-footer">
 					<div class="wrap">
-						<div class="bottom-footer-left">
+						<!-- <div class="bottom-footer-left">
 							<p>&#169; Copyright 2014 Template. <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-						</div>
+						</div> -->
 						<div class="bottom-footer-center">
 							<ul class="bottom-social-icons">
 								<li><a class="bottom-twitter" href="#"> </a></li>
